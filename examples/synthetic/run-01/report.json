@@ -1,0 +1,19 @@
+{
+  "data_kind": "SYNTHETIC_ONLY",
+  "policy": "Forced fixture policy; not a trained strategy",
+  "seed": 23,
+  "candles": 1500,
+  "engine_entries": 45,
+  "checks": {
+    "features_ignore_future": true,
+    "prefix_is_causal": true,
+    "gap_resets_warmup": true,
+    "targets_stay_inside_partition": true,
+    "duplicate_poll_does_not_duplicate_entries": true,
+    "no_open_outcomes_after_finish": true,
+    "voids_have_no_invented_pnl": true,
+    "settlement_quote_is_after_target": true
+  },
+  "all_checks_passed": true,
+  "limits": "Mechanics only. No market edge, broker outcome or investment result."
+}

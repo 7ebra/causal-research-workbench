@@ -1,0 +1,6 @@
+interface:
+  display_name: "Controlled Model Updates"
+  short_description: "Frozen challengers and fresh tests before replacement"
+  default_prompt: "Use $controlled-model-updates to stage this model change, preserve active experiments and determine whether replacement is justified."
+policy:
+  allow_implicit_invocation: true

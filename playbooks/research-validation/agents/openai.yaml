@@ -1,0 +1,6 @@
+interface:
+  display_name: "Research Validation"
+  short_description: "Chronological tests, costs and rejection criteria"
+  default_prompt: "Use $research-validation to design or audit this model experiment and report whether its evidence supports the claim."
+policy:
+  allow_implicit_invocation: true

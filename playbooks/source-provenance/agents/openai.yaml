@@ -1,0 +1,6 @@
+interface:
+  display_name: "Source Provenance"
+  short_description: "As-of source timing, first observation and revisions"
+  default_prompt: "Use $source-provenance to audit when these research inputs became available and whether later revisions affect the conclusions."
+policy:
+  allow_implicit_invocation: true
